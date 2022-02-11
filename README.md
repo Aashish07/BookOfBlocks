@@ -1,2 +1,2 @@
-# blogWebsite
-A blog website for Blockchain
+# BookOfBlocks
+A One Stop Solution for Blockchain
