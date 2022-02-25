@@ -10,15 +10,6 @@ const useStyles = makeStyles({
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
-    // '& :first-child': {
-    //   fontSize : 66,
-    //   color : '#FFFFFF',
-    //   lineHeight : 1
-    // },
-    // '& :last-child' :{
-    //   fontSize : 20,
-    //   background: '#FFFFFF'
-    // }
   }
 })
 
