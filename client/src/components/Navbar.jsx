@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles({
   component : {
-    backgroundColor : '#040C18',
+    backgroundColor : '#031B34',
+    // #031B34;'#040C18',
     color: 'white'
   },
   container : {

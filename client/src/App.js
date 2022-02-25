@@ -17,7 +17,7 @@ class App extends Component {
     return (
       <BrowserRouter>
         <Navbar />
-        <Box style={{marginTop: 72, width:'100%'}}>
+        <Box style={{marginTop: 72}}>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/BlockchainHomePage" element={<BlockchainHomePage />} />

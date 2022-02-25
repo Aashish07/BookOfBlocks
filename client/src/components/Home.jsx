@@ -13,12 +13,10 @@ const useStyle = makeStyles({
         backgroundColor : '#040C18',
     },
     header_content :{
-        // display: 'flex',
-        // flex_direction: 'row',
         justify_content: 'center',
         align_items: 'flex-start',
-        margin_right: 5,
-        paddingTop: 400,
+        margin_right: 20,
+        paddingTop: 300,
         color : '#81AFDD',
         lineHeight : 1
     },
@@ -26,7 +24,6 @@ const useStyle = makeStyles({
         fontweight: 400,
         fontsize: 60,
         lineheight: 28,
-        // color: var(--color-text),
         margin_top: 11.5,
     },
     image : {
@@ -45,7 +42,8 @@ const useStyle = makeStyles({
     },
     link : {
         textDecoration : 'none',
-        color : 'inherit'
+        color : 'inherit',
+        paddingRight : 100
     }
 })
 
@@ -55,8 +53,8 @@ const Home = () => {
         <React.Fragment>
             <Box className={classes.maindiv}>
                 <Box className={classes.header_content}>
-                    <Typography className={classes.header_contentFirst}>Let&apos;s head to the basics of Blockchain</Typography>
-                    <Typography className={classes.header_contentFirst}>Blockchain is what lies under the hood that will revolutionize how we interact over the Internet. With the boom rally of Bitcoin, It has simply been confused by millenials as Blockchain. But what comes first Bitcoin or Blockchain ? Why it is going to create a huge impact on our lives, how we operate ? How it operates ? Let&apos;s go and understand</Typography>
+                    <Typography variant="h1" className={classes.header_contentFirst}>Let&apos;s head to the basics of Blockchain</Typography>
+                    <Typography variant="h5"className={classes.header_contentFirst}>Blockchain is what lies under the hood that will revolutionize how we interact over the Internet. With the boom rally of Bitcoin, It has simply been confused by millenials as Blockchain. But what comes first Bitcoin or Blockchain ? Why it is going to create a huge impact on our lives, how we operate ? How it operates ? Let&apos;s go and understand</Typography>
                     <Link to="/BlockchainHomePage" className={classes.link}><Button variant="contained" className={classes.explore}>explore</Button></Link>
                 </Box>
                 <Box className={classes.image}>
