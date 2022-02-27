@@ -20,7 +20,8 @@ const useStyles = makeStyles({
 const Navbar = () => {
   const classes = useStyles();
   return (
-    <AppBar className={classes.component}>
+    <React.Fragment>
+    {/* <AppBar className={classes.component}>
       <Toolbar className={classes.container}>
       <Link to="/" style={{textDecoration : 'none', color:'inherit'}}><Typography variant="h5">BookOfBlocks</Typography></Link>
       <Link to="/BlockchainHomePage" style={{textDecoration : 'none', color:'inherit'}}><Typography variant="h6">What is Blockchain</Typography></Link>
@@ -31,7 +32,21 @@ const Navbar = () => {
       <Link to="/Web3HomePage" style={{textDecoration : 'none', color:'inherit'}}><Typography variant="h6">Web 3.0</Typography></Link>
 
       </Toolbar>
-    </AppBar>
+    </AppBar> */}
+    <div className='gpt3__navbar'>
+      <div className='gpt3__navbar-links'>
+        <div class="gpt3__navbar-links_container">
+          <p><a href="/">BookOfBlocks</a></p>
+          <p><a href="/BlockchainHomePage">What is Blockchain</a></p>
+          <p><a href="/BitcoinHomePage">Bitcoin</a></p>
+          <p><a href="/CryptoHomePage">Crypto</a></p>
+          <p><a href="/NftHomePage">NFT</a></p>
+          <p><a href="/TokenomicsHomePage">Tokenomics</a></p>
+          <p><a href="/Web3HomePage">Web 3.0</a></p>
+          </div>
+      </div>
+    </div>
+    </React.Fragment>
   )
 }
 

@@ -16,8 +16,8 @@ class App extends Component {
   render() {
     return (
       <BrowserRouter>
-        <Navbar />
-        <Box style={{marginTop: 72}}>
+        {/* <Navbar /> */}
+        <Box>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/BlockchainHomePage" element={<BlockchainHomePage />} />
