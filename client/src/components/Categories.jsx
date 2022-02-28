@@ -25,7 +25,7 @@ const Categories = () => {
   return (
     <React.Fragment>
         <Link to="/create" className={classes.link}><Button variant="contained" className={classes.create}>Add Information</Button></Link>
-        <Table className={classes.table}>
+        <Table className={classes.table + ' ml10px'}>
             <TableHead>
                 <TableRow>
                     <TableCell>All Categories</TableCell>

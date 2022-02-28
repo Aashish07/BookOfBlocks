@@ -12,7 +12,7 @@ const useStyle = makeStyles({
 const Article = () => {
     const classes = useStyle();
   return (
-    <Box>
+    <Box className='pad10'>
         <Box className='tar'>
             <Link to="/update"><Edit className={classes.icon} color="primary"/></Link>
             <Delete className={classes.icon} color="error"/>

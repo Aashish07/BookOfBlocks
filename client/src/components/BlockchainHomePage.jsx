@@ -10,10 +10,10 @@ const BlockchainHomePage = () => {
       <Banner />
       <Grid container>
           <Grid item lg={2} xs={12} sm={2}>
-              <Categories />
+              <Categories/>
           </Grid>
           <Grid container item lg={10} xs={12} sm={10}>
-              <Article />
+              <Article/>
           </Grid>
       </Grid>
     </React.Fragment>

@@ -5,6 +5,13 @@
     background: var(--color-bg);
     padding: 2rem 6rem;
 }
+.ml10px{
+    margin-left: 10px;
+    margin-bottom: 8px;
+}
+.pad10{
+    padding: 2%;
+}
 .tar{
     text-align: right;
 }
