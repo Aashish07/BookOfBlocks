@@ -63,7 +63,7 @@ const Home = () => {
                 </Box>
             </Box> */}
             <div className='gradient__bg'>
-                <Navbar />
+                
                 <div className='gpt3__header section__padding'>
                     <div className='gpt3__header-content'>
                         <h1 className='gradient__text'>Let&apos;s head to the basics of Blockchain</h1>

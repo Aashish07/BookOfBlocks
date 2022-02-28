@@ -2,10 +2,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    background: var(--color-bg);
     padding: 2rem 6rem;
 }
-
+.tar{
+    text-align: right;
+}
 .gpt3__navbar-links {
     flex: 1;
     display: flex;

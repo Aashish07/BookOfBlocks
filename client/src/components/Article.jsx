@@ -13,7 +13,7 @@ const Article = () => {
     const classes = useStyle();
   return (
     <Box>
-        <Box>
+        <Box className='tar'>
             <Link to="/update"><Edit className={classes.icon} color="primary"/></Link>
             <Delete className={classes.icon} color="error"/>
         </Box>

@@ -16,7 +16,7 @@ class App extends Component {
   render() {
     return (
       <BrowserRouter>
-        {/* <Navbar /> */}
+        <Navbar />
         <Box>
           <Routes>
             <Route path="/" element={<Home />} />
